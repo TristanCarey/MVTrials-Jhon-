@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -16,9 +17,14 @@
       This is a little survey site that I had to make as part of the trials.
     </p>
     <form id="survey-form" action="">
-      <input id="name" type="text" placeholder="Enter your name" required>
-      <input id="email" type="email" placeholder="Enter your email" required>
-      <input id="number" type="number" placeholder="Enter your number" required>
+        <label id="name-label"> Enter name: </label>
+        <input id="name" type="text" placeholder="Enter your name" required>
+      
+        <label id="email-label"> Enter email: </label>
+        <input id="email" type="email" placeholder="Enter your email" required>
+      
+        <label id="number-label"> Enter number: </label>
+        <input id="number" type="number" placeholder="Enter your number" required min="0" max="9999999999999">
       
     </form>
     
